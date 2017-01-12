@@ -5,10 +5,10 @@ class Sample
 {
 public static void main(String args[])
 {
-int i;
+String i;
 Scanner s=new Scanner(System.in);
-i=s.nextInt();
-System.out.Println("The number is"+i);
+i=s.nextLine();
+System.out.Println("The string is"+i);
 }
 }
 
